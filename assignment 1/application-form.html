@@ -64,9 +64,9 @@
     <section>
       <form action="#" method="post">
         <label for="fName">First Name</label>
-        <input type="text" id="fName" />
+        <input type="text" id="fName" required />
         <label for="lName">Last Name</label>
-        <input type="text" id="lName" />
+        <input type="text" id="lName" required />
         <br />
         <label for="gender">Gender</label>
         <input
@@ -74,6 +74,7 @@
           id="gender"
           list="genderList"
           placeholder="Select gender"
+          required
         />
         <datalist id="genderList">
           <option value="Male">Male</option>
@@ -81,16 +82,22 @@
           <option value="Non-binary">Non-binary</option>
         </datalist>
         <label for="dob">Date of Birth</label>
-        <input type="date" id="dob" />
+        <input type="date" id="dob" required />
         <br />
         <label for="email">Email Address</label>
-        <input type="email" id="email" placeholder="Enter email address" />
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter email address"
+          required
+        />
         <label for="">Education Level</label>
         <input
           type="text"
           id="educationLevel"
           list="educationLevelList"
           placeholder="Select level of education"
+          required
         />
         <datalist id="educationLevelList">
           <option value="Bsc">Bsc</option>
@@ -111,6 +118,7 @@
           id="country"
           list="countryList"
           placeholder="Select your country"
+          required
         />
         <datalist id="countryList">
           <option value="Afghanistan">Afghanistan</option>
@@ -407,6 +415,7 @@
           type="text"
           id="residence"
           placeholder="Enter your state of residence"
+          required
         />
         <br />
         <label for="employmentStatus">Employment Status</label>
@@ -415,6 +424,7 @@
           id="employmentStatus"
           list="employmentStatusList"
           placeholder="Select employment Status"
+          required
         />
         <datalist id="employmentStatusList">
           <option value="employed">employed</option>
@@ -422,7 +432,7 @@
           <option value="self-employed">self-employed</option>
         </datalist>
         <label for="phoneNumber">Phone Number</label>
-        <input type="tel" id="phoneNumber" placeholder="08126596700" />
+        <input type="tel" id="phoneNumber" placeholder="08126596700" required />
         <br />
         <label for="school">Choose school</label>
         <input
@@ -430,6 +440,7 @@
           id="school"
           list="schoolList"
           placeholder="Select School"
+          required
         />
         <datalist id="schoolList">
           <option value="School of Creative Economy">
@@ -438,7 +449,7 @@
           <option value="School of Business">School of Business</option>
         </datalist>
         <label for="course">Choose Course of Study</label>
-        <input type="text" id="course" list="courseList" />
+        <input type="text" id="course" list="courseList" required />
         <datalist id="courseList">
           <option value=""></option>
         </datalist>
@@ -449,6 +460,7 @@
           id="channel"
           list="channelList"
           placeholder="Select channel"
+          required
         />
         <datalist id="channelList">
           <option value="Twitter">Twitter</option>
@@ -467,7 +479,7 @@
           placeholder="Scholarship or student ID or discount codes"
         />
         <br />
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Proceed" />
       </form>
       <h3>
         By clicking continue, I agree to the <a href="#">Terms of Use</a> and
