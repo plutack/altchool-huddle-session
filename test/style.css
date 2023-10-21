@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 50px;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.main-container > * {
+  margin: 10px;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 20%;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  font-size: 50px;
+  margin-top: 50px;
+  border-top-right-radius: 20px;
+  /* border: 1px solid white; */
+  padding-left: 100px;
+}
+.quote q {
+  width: 67%;
+  font-size: 1.21rem;
+}
+#steveImg {
+  width: 33%;
+}
+
+.biography {
+  padding: 0 10%;
+}
+.biography > * {
+  margin: 20px 0;
+}
+.biography h2 {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+small {
+  font-size: 0.5rem;
+}
+
+p {
+  font-size: 0.5rem;
+  margin-bottom: 10px;
+}
+
+hr {
+  color: #fff;
+  width: 100%;
+}
